@@ -4,3 +4,22 @@ body{
 span{
     color: coral;
 }
+h1{ font-size: 50px;}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(226, 132, 55),rgb(217, 139, 224));
+    padding: 15px 20px;
+    color: wheat;
+    font-weight: 800;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.flex{
+    display: flex;
+}
+.content-width{
+    width: 50%;margin: 62px;
+    padding: 1%;
+}
+.content-width img{
+    width: 70%
