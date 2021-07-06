@@ -16,10 +16,81 @@ h1{ font-size: 50px;}
 }
 .flex{
     display: flex;
+    margin: 150px;
 }
 .content-width{
-    width: 50%;margin: 62px;
+    width: 50%;
+    margin-bottom: 62px;
     padding: 1%;
 }
 .content-width img{
-    width: 70%
+    width: 70%}
+
+    #recipe-list{
+        text-align: center;
+        margin: 50px;
+    }
+    #recipe-list h1{
+        font-size: 50px;
+        color: rgb(230, 230, 24);
+        margin-bottom: 30px;
+
+    }
+
+    #box-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px;
+    }
+    .box{
+        width: 30%;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 15px 10px 5px rgb(0 0 0 / 10%);
+    }
+    img{
+        width: 95%;
+        border-radius: 20px;
+    }
+    .social_subscriptions{
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 5px 4px 25px grey; 
+        margin-right: 40px;
+        margin-left: 40px;
+        border-radius: 10px;
+    }
+    .social_subscriptions .youtube h1 {
+        font-size: 40px;
+        padding-top: 10px; 
+        font-weight: 1000;
+    }
+    .social_subscriptions .youtube p{
+        margin-bottom: 50px;
+    }
+    .footer {
+        background-color: #111;
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .footer h1 {
+        margin-top: 50px;
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    
+    .tomato_color {
+        color: #df624c
+    }
+    
+    .footer h4 {
+        font-size: 19px;
+        color: thistle;
+        padding-bottom: 40px;
+    }
